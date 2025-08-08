@@ -113,7 +113,7 @@ a:hover {
 
     img {padding-left: 4rem;
       padding-right: 4rem;
-         padding-bottom: 4rem;
+         padding-top: 4rem;
   max-width: 100%;
   height: auto;
 }
@@ -129,4 +129,5 @@ a:hover {
   font-size: 0.8rem;
 
 }
+
 
