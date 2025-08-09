@@ -9,6 +9,9 @@ body {
          margin: 0rem;
            background-color: #FEFBF6;
         }
+main {
+  margin-bottom: 1rem;
+}
 
 :focus {
    background-color:black; 
@@ -146,7 +149,6 @@ a:hover {
   color: #FEFBF6;
   padding: 1rem;
   font-size: 0.8rem;
-  margin-top: 1rem;
 }
 
 @media (min-width: 600px) {
