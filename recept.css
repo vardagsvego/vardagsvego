@@ -107,11 +107,11 @@ a {
   line-height: 2rem;
   padding-bottom: 0.5rem;
   padding-top: 0.5rem;
-  text-decoration: underline;
+  text-decoration: none;
   }
 
 a:hover {
-    text-decoration: none;
+    text-decoration: underline;
 }
 
 .receptlista-start a {
