@@ -146,6 +146,7 @@ a:hover {
   color: #FEFBF6;
   padding: 1rem;
   font-size: 0.8rem;
+  margin-top: 1rem;
 }
 
 @media (min-width: 600px) {
