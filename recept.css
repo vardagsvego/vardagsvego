@@ -148,5 +148,11 @@ a:hover {
   font-size: 0.8rem;
 }
 
+@media (min-width: 600px) {
+  /* Place your CSS changes here */
+  body {
+    margin-left: 5rem;
+    margin-right: 5rem;
+}
 
 
