@@ -134,9 +134,9 @@ a:hover {
         color:#FFF;     
 }
 
-    img {
-  max-width: 100%;
-  height: auto;
+img {
+    width: 395px;
+    height: auto;
 }
 
 /* Footer */
@@ -155,12 +155,4 @@ a:hover {
     margin-left: 7rem;
     margin-right: 7rem;
 }
-}
-
-@media (min-width: 600px) {
-  img {
-  width: 50%;
-  height: 50%;
-  } 
-
 }
