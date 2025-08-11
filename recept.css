@@ -159,9 +159,8 @@ a:hover {
 
 @media (min-width: 600px) {
   img {
-  margin-left: 7rem;
-    margin-right: 7rem;
-    max-width: 100%;
+  width: 50%;
+  height: 50%;
   } 
 
 }
