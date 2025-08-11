@@ -156,8 +156,9 @@ a:hover {
     margin-right: 7rem;
 }
 img {
-    max-width: 50%;
-    height: 50;
+  margin-left: 7rem;
+    margin-right: 7rem;
+    max-width: 100%;
   } 
 
 }
