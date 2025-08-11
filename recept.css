@@ -170,5 +170,15 @@ padding-right: 1rem;
     width: 395px;
     height: auto;
 }
-
+}
+@media (min-width: 600px) {
+  html {
+    font-size: 125%;
+  }
+  body {
+    zoom: 1.25;
+  }
+  img {
+    transform: scale(1.25);
+  }
 }
