@@ -134,9 +134,13 @@ a:hover {
         color:#FFF;     
 }
 
-img {
-    width: 395px;
-    height: auto;
+    img {
+  max-width: 100%;
+  height: auto;
+   padding-left: 1rem;
+  padding-bottom: 0rem;
+padding-top: 1rem; 
+padding-right: 1rem;
 }
 
 /* Footer */
@@ -155,4 +159,16 @@ img {
     margin-left: 7rem;
     margin-right: 7rem;
 }
+}
+
+@media (min-width: 600px) {
+img {
+   padding-left: 1rem;
+  padding-bottom: 0rem;
+padding-top: 1rem; 
+padding-right: 1rem;
+    width: 395px;
+    height: auto;
+}
+
 }
