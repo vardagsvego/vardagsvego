@@ -135,7 +135,7 @@ a:hover {
 }
 
     img {
-  max-width: 90%;
+  max-width: 80%;
   height: auto;
   display: block;
   margin-left: auto;
@@ -168,6 +168,7 @@ a:hover {
   }
   img {
      width: 550px;
+     padding-bottom: 1rem;
     height: auto;
     height: auto;
   display: block;
