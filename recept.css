@@ -171,5 +171,8 @@ margin-right: 1rem;
      width: 550px;
     height: auto;
     padding-left: 7rem;
+    padding-right: 7rem;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
   }
 }
