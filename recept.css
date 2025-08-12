@@ -160,23 +160,12 @@ padding-right: 1rem;
     margin-right: 7rem;
 }
 }
-
-@media (min-width: 600px) {
-img {
-   padding-left: 1rem;
-  padding-bottom: 0rem;
-padding-top: 1rem; 
-padding-right: 1rem;
-    width: 395px;
-    height: auto;
-}
-}
 @media (min-width: 600px) {
   html {
-    font-size: 125%;
+    font-size: 115%;
   }
   body {
-    zoom: 1.25;
+    zoom: 1.15;
   }
   img {
     transform: scale(1.25);
