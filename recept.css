@@ -168,6 +168,8 @@ padding-right: 1rem;
     zoom: 1.15;
   }
   img {
+     width: 395px;
+    height: auto;
     transform: scale(1.25);
   }
 }
