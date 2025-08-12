@@ -137,10 +137,10 @@ a:hover {
     img {
   max-width: 100%;
   height: auto;
-   padding-left: 1rem;
+  margin-left: 1rem;
   padding-bottom: 0rem;
-padding-top: 1rem; 
-padding-right: 1rem;
+padding-top: 0rem; 
+margin-right: 1rem;
 }
 
 /* Footer */
@@ -162,10 +162,10 @@ padding-right: 1rem;
 }
 @media (min-width: 600px) {
   html {
-    font-size: 115%;
+    font-size: 110%;
   }
   body {
-    zoom: 1.15;
+    zoom: 1.1;
   }
   img {
      width: 550px;
