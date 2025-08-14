@@ -154,9 +154,9 @@ a:hover {
 }
 
 @media (min-width: 600px) {
-  body {
-    margin-left: 10rem;
-    margin-right: 10rem;
+  main {
+    margin-left: 12rem;
+    margin-right: 12rem;
 }
 }
 @media (min-width: 600px) {
