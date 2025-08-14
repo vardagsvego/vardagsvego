@@ -134,12 +134,12 @@ a:hover {
         color:#FFF;     
 }
 
-    img {
-  width: 250px;
-  height: auto;
+img {
+  width: 100vw;
+  height: 100vh;
+  object-fit: cover;
   display: block;
-  margin-left: auto;
-  margin-right: auto;
+  margin: 0 auto;
 }
 
 /* Footer */
@@ -166,12 +166,3 @@ a:hover {
   body {
     zoom: 1.1;
   }
-  img {
-     width: 550px;
-     padding-bottom: 1rem;
-    height: auto;
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
-  }
-}
