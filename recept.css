@@ -136,7 +136,7 @@ a:hover {
 
 img {
   width: 100vw;
-  height: 100vh;
+  height: auto;
   object-fit: cover;
   display: block;
   margin: 0 auto;
