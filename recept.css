@@ -8,6 +8,7 @@ body {
         letter-spacing: 0.1rem;
          margin: 0rem;
            background-color: #FEFBF6;
+             overflow-x: hidden;
         }
 main {
   margin-bottom: 3rem;
@@ -135,11 +136,13 @@ a:hover {
 }
 
 img {
-  width: 100vw;
+  max-width: 100vw;
+  max-height: 100vh;
+  width: auto;
   height: auto;
-  object-fit: cover;
   display: block;
   margin: 0 auto;
+  object-fit: contain;
 }
 
 /* Footer */
@@ -165,5 +168,9 @@ img {
   }
   body {
     zoom: 1.1;
+  }
+  img {
+    width: 550px;
+    height: auto;
   }
 }
