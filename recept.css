@@ -6,12 +6,12 @@ font-family: 'Helvetica Neue', sans-serif;}
 body {
           
         letter-spacing: 0.1rem;
+         margin: 0rem;
            background-color: #FEFBF6;
              overflow-x: hidden;
         }
 main {
   margin-bottom: 3rem;
-  margin-right: 1rem;
 }
 
 :focus {
@@ -170,12 +170,7 @@ img {
     zoom: 1.1;
   }
   img {
-    max-width: 100vw;
-    max-height: 100vh;
-    width: auto;
+    width: 550px;
     height: auto;
-    display: block;
-    margin: 0 auto;
-    object-fit: contain;
   }
 }
