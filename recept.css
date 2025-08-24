@@ -20,10 +20,17 @@ main {
 }
 
 /* Banner */
-.banner { 
-  overflow: hidden; 
+.banner {
+  overflow: hidden;
   background-color: #354044;
   padding: 0.5rem;
+  width: 100vw;
+  left: 50%;
+  right: 50%;
+  margin-left: -50vw;
+  margin-right: -50vw;
+  position: relative;
+  box-sizing: border-box;
 }
 
 .banner a {
@@ -42,8 +49,18 @@ main {
 
 /* Topnav */
 .topnav {
-  overflow: hidden; 
+  overflow: hidden;
   background-color: #F0EDDC;
+  width: 100vw;
+  left: 50%;
+  right: 50%;
+  margin-left: -50vw;
+  margin-right: -50vw;
+  position: relative;
+  box-sizing: border-box;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 .topnav a {
