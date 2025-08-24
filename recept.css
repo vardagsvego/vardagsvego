@@ -167,13 +167,15 @@ a:hover {
 }
 
 img {
-  max-width: 100vw;
-  max-height: 100vh;
-  width: auto;
-  height: auto;
+  width: 100%;
+  max-width: 400px;
+  height: 250px;
+  object-fit: cover;
   display: block;
-  margin: 0 auto;
-  object-fit: contain;
+  margin: 1rem auto;
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+  box-sizing: border-box;
 }
 
 /* Footer */
