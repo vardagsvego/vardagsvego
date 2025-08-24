@@ -21,6 +21,21 @@
       </div>
     </header>
 
+  <script>
+    window.addEventListener('DOMContentLoaded', function() {
+      document.querySelectorAll('img').forEach(function(img) {
+        img.onload = function() {
+          if (img.naturalHeight > img.naturalWidth) {
+            img.style.transform = 'rotate(90deg)';
+          }
+        };
+        // If already loaded
+        if (img.complete && img.naturalHeight > img.naturalWidth) {
+          img.style.transform = 'rotate(90deg)';
+        }
+      });
+    });
+  </script>
   <main>
     <section class="hero">
       <div class="container">
@@ -85,7 +100,7 @@
         <h3>Mysli &amp; bröd</h3>
         <ul>
                 <li><a href="https://vardagsvego.github.io/vardagsvego/musli">Rostad mysli</a></li>
-                <li><a href="https://vardagsvego.github.io/vardagsvego/gjutjarnsbrod">Grovt gjutjärnsbröd med surdeg</a></li>
+                <li><a href="https://vardagsvego.github.io/vardagsvego/gjutjarnsbrod">Grovt grytbröd med surdeg</a></li>
                 <li><a href="https://vardagsvego.github.io/vardagsvego/frallor">Kalljästa fullkornsfrallor (EJ FÄRDIGT RECEPT)</a></li>
                 <li><a href="https://vardagsvego.github.io/vardagsvego/frallor-surdeg">Fullkornsfrallor med surdeg (EJ FÄRDIGT RECEPT)</a></li>
               </ul>
