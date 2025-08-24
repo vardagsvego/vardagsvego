@@ -20,22 +20,6 @@
         </nav>
       </div>
     </header>
-
-  <script>
-    window.addEventListener('DOMContentLoaded', function() {
-      document.querySelectorAll('img').forEach(function(img) {
-        img.onload = function() {
-          if (img.naturalHeight > img.naturalWidth) {
-            img.style.transform = 'rotate(90deg)';
-          }
-        };
-        // If already loaded
-        if (img.complete && img.naturalHeight > img.naturalWidth) {
-          img.style.transform = 'rotate(90deg)';
-        }
-      });
-    });
-  </script>
   <main>
     <section class="hero">
       <div class="container">
@@ -47,7 +31,7 @@
       </div>
     </section>
       <div class="receptlista-start">
-        <h2>Recept</h2>
+        <h2>Middag</h2>
         <h3>Gryträtter</h3>
         <ul>
               <li><a href="https://vardagsvego.github.io/vardagsvego/ajvarsas">Ajvar &amp; linsgryta</a></li>
@@ -97,9 +81,11 @@
                  <li><a href="https://vardagsvego.github.io/vardagsvego/potatissallad">Potatissallad - fransk</a></li>
                  <li><a href="https://vardagsvego.github.io/vardagsvego/potatissallad-svennig">Potatissallad - svennig</a></li>
         </ul>
-        <h3>Mysli &amp; bröd</h3>
+        <h2>Frukost &amp; fika</h2>
+        <h3>Mysli</h3>
+        <p><a href="https://vardagsvego.github.io/vardagsvego/musli">Rostad mysli</a></p>
+        <h3>Bröd</h3>
         <ul>
-                <li><a href="https://vardagsvego.github.io/vardagsvego/musli">Rostad mysli</a></li>
                 <li><a href="https://vardagsvego.github.io/vardagsvego/gjutjarnsbrod">Grovt grytbröd med surdeg</a></li>
                 <li><a href="https://vardagsvego.github.io/vardagsvego/frallor">Kalljästa fullkornsfrallor (EJ FÄRDIGT RECEPT)</a></li>
                 <li><a href="https://vardagsvego.github.io/vardagsvego/frallor-surdeg">Fullkornsfrallor med surdeg (EJ FÄRDIGT RECEPT)</a></li>
