@@ -179,17 +179,6 @@ img {
   box-sizing: border-box;
 }
 
-/* Footer */
-
-.site-footer
-{
-  overflow: hidden; 
-  background-color: #344044;
-  color: #FEFBF6;
-  padding: 1rem;
-  font-size: 0.5rem;
-}
-
 @media (min-width: 900px) {
   body {
     transform: scale(1.25);
@@ -213,4 +202,14 @@ img {
     height: auto;
     object-fit: contain !important;
   }
+}
+/* Footer */
+
+.site-footer
+{
+  overflow: hidden; 
+  background-color: #344044;
+  color: #FEFBF6;
+  padding: 1rem;
+  font-size: 0.7rem;
 }
