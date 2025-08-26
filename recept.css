@@ -1,3 +1,55 @@
+@media (min-width: 900px) {
+  body {
+    font-size: 1.25rem;
+    line-height: 1.7;
+    background-color: #FEFBF6;
+  }
+  .banner, .topnav {
+    width: 100vw;
+    margin-left: -50vw;
+    left: 50%;
+    right: 50%;
+    position: relative;
+    box-sizing: border-box;
+    padding: 2rem 0;
+    font-size: 1.5rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  main, .container, .receptlista-start {
+    max-width: 800px;
+    margin: 2rem auto;
+    padding: 2rem 3rem;
+    background: #fff;
+    border-radius: 1rem;
+    box-shadow: 0 2px 16px rgba(0,0,0,0.04);
+    text-align: left;
+  }
+  h1, h2, h3, h4, p, li, a {
+    font-size: 1.25em;
+  }
+  img {
+    max-width: 100%;
+    height: auto;
+    margin: 2rem auto;
+    display: block;
+    border-radius: 0.5rem;
+  }
+  .site-footer {
+    width: 100vw;
+    margin-left: -50vw;
+    left: 50%;
+    right: 50%;
+    position: relative;
+    box-sizing: border-box;
+    padding: 2rem 0;
+    font-size: 1.1rem;
+    text-align: center;
+    background-color: #344044;
+    color: #FEFBF6;
+  }
+}
 
 * {
   box-sizing: border-box;
