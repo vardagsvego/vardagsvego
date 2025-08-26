@@ -193,7 +193,7 @@ img {
   body {
     transform: scale(1.25);
     transform-origin: top left;
-    text-align: center;
+    text-align: left;
   }
   .banner, .topnav {
     padding: 1.5rem 3rem;
@@ -206,7 +206,7 @@ img {
     max-width: 900px;
     margin: 0 auto;
     padding: 2rem;
-    text-align: center;
+    text-align: left;
   }
   .topnav a {
     padding: 2rem 2rem;
