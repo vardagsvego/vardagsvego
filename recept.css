@@ -1,4 +1,33 @@
-
+@media (min-width: 600px) {
+    img {
+    transform: scale(0.5);
+    margin: 2rem auto;
+    display: block;
+    border-radius: 0.5rem;
+  }
+  body {
+    transform: scale(1.1);
+  }
+    main { margin-left: 9rem;
+    margin-right: 9rem;
+  
+}
+}
+@media (min-width: 900px) {
+  img {
+    transform: scale(0.25);
+    margin: 2rem auto;
+    display: block;
+    border-radius: 0.5rem;
+  }
+  body {
+    transform: scale(1.25);
+}
+  main { margin-left: 13rem;
+    margin-right: 13rem;
+  
+}
+}
 
 * {
   box-sizing: border-box;
@@ -188,17 +217,4 @@ img {
   color: #FEFBF6;
   padding: 1rem;
   font-size: 0.7rem;
-}
-
-@media (min-width: 600px) {
-  body {
-    transform: scale(1.1);
-    transform-origin: top left;
-  }
-}
-@media (min-width: 900px) {
-  body {
-    transform: scale(1.25);
-    transform-origin: top left;
-  }
 }
