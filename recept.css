@@ -183,24 +183,33 @@ img {
   body {
     transform: scale(1.25);
     transform-origin: top left;
+    text-align: center;
   }
   .banner, .topnav {
     padding: 1.5rem 3rem;
     font-size: 1.3rem;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
   }
   main, .container, .receptlista-start {
     max-width: 900px;
     margin: 0 auto;
     padding: 2rem;
+    text-align: center;
   }
   .topnav a {
     padding: 2rem 2rem;
     font-size: 1.2rem;
+    text-align: center;
   }
   img {
     max-width: 100%;
     height: auto;
     object-fit: contain !important;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
   }
 }
 /* Footer */
