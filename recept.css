@@ -178,6 +178,16 @@ img {
   padding-bottom: 1rem;
   box-sizing: border-box;
 }
+/* Footer */
+
+.site-footer
+{
+  overflow: hidden; 
+  background-color: #344044;
+  color: #FEFBF6;
+  padding: 1rem;
+  font-size: 0.7rem;
+}
 
 @media (min-width: 900px) {
   body {
@@ -211,14 +221,4 @@ img {
     margin-right: auto;
     display: block;
   }
-}
-/* Footer */
-
-.site-footer
-{
-  overflow: hidden; 
-  background-color: #344044;
-  color: #FEFBF6;
-  padding: 1rem;
-  font-size: 0.7rem;
 }
