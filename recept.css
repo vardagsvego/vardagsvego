@@ -190,42 +190,4 @@ img {
   font-size: 0.7rem;
 }
 
-@media (min-width: 900px) {
-  body {
-    transform: scale(1.25);
-    transform-origin: top left;
-    text-align: left;
-  }
-  .banner, .topnav {
-    padding: 1.5rem 0;
-    font-size: 1.3rem;
-    text-align: center;
-    justify-content: center;
-    align-items: center;
-    margin-left: auto;
-    margin-right: auto;
-    width: 100%;
-    box-sizing: border-box;
-  }
-  main, .container, .receptlista-start {
-    max-width: 700px;
-    margin-left: auto;
-    margin-right: auto;
-    padding: 2rem 0;
-    text-align: left;
-    box-sizing: border-box;
-  }
-  .topnav a {
-    padding: 2rem 2rem;
-    font-size: 1.2rem;
-    text-align: center;
-  }
-  img {
-    max-width: 100%;
-    height: auto;
-    object-fit: contain !important;
-    margin-left: auto;
-    margin-right: auto;
-    display: block;
-  }
-}
+
