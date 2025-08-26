@@ -188,3 +188,15 @@ img {
   padding: 1rem;
   font-size: 0.7rem;
 }
+
+@media (min-width: 800px) {
+  body {
+    margin-left: 12rem;
+    margin-right: 12rem;
+  }
+  @media (min-width: 800px) {
+  body {
+    transform: scale(1.2);
+  }
+}
+}
