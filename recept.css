@@ -1,38 +1,4 @@
-@media (min-width: 800px) {
-  body, h1, h2, h3, h4, h5, h6, p, li, ul, ol, a, .banner, .topnav, .site-footer, main, .container, .receptlista-start {
-    font-size: 1.25em;
-  }
-  body {
-    margin: 0;
-  }
-  .banner, .topnav, .site-footer {
-    width: 100vw;
-    margin-left: -50vw;
-    left: 50%;
-    right: 50%;
-    position: relative;
-    box-sizing: border-box;
-    padding: 2rem 0;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    font-size: 2rem;
-  }
-  main, .container, .receptlista-start {
-    max-width: 900px;
-    margin-left: auto;
-    margin-right: auto;
-    padding: 2rem 3rem;
-    text-align: left;
-  }
-  img {
-    max-width: 100%;
-    height: auto;
-    margin: 2rem auto;
-    display: block;
-    border-radius: 0.5rem;
-  }
-}
+
 * {
   box-sizing: border-box;
 font-family: 'Helvetica Neue', sans-serif;}
