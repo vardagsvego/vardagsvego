@@ -190,4 +190,15 @@ img {
   font-size: 0.7rem;
 }
 
-
+@media (min-width: 600px) {
+  body {
+    transform: scale(1.1);
+    transform-origin: top left;
+  }
+}
+@media (min-width: 900px) {
+  body {
+    transform: scale(1.25);
+    transform-origin: top left;
+  }
+}
