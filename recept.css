@@ -194,8 +194,19 @@ img {
 }
 
 @media (min-width: 700px) {
-  body {
+  main {
     padding-left: 12rem;
     padding-right: 12rem;
+  }
+  .topnav a {
+    font-size: 1.5rem;
+    padding-top: 4rem;
+    padding-bottom: 4rem;
+    padding-left: 1.2rem;
+    padding-right: 1.2rem;
+  }
+  body > :not(img) {
+    transform: scale(1.08);
+    transform-origin: top center;
   }
 }
