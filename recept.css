@@ -9,9 +9,13 @@ body {
          margin: 0rem;
            background-color: #FEFBF6;
              overflow-x: hidden;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
         }
 main {
   margin-bottom: 3rem;
+    flex: 1;
 }
 
 :focus {
@@ -187,10 +191,16 @@ img {
   background-color: #344044;
   color: #FEFBF6;
   padding: 1rem;
+  width: 100vw;
+  left: 50%;
+  right: 50%;
+  margin-left: -50vw;
+  margin-right: -50vw;
+  position: relative;
 }
 
 .site-footer p {
-  font-size: 0.7rem;
+  font-size: 0.8rem;
 }
 
 @media (min-width: 700px) {
