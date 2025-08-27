@@ -181,7 +181,7 @@ img {
 }
 /* Footer */
 
-.site-footer
+.site-footer p
 {
   overflow: hidden; 
   background-color: #344044;
@@ -190,7 +190,7 @@ img {
   font-size: 0.5rem;
 }
 
-@media (min-width: 800px) {
+@media (min-width: 700px) {
   body {
     padding-left: 12rem;
     padding-right: 12rem;
