@@ -91,7 +91,8 @@ main {
 
 /* Index hero spacing */
 .hero h1 {
-  margin-bottom: 0.3rem;
+  margin-bottom: 0.5rem;
+  margin-top: 0.3rem;
 }
 .hero p {
   margin-top: 0.3rem;
