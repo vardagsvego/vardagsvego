@@ -1,3 +1,11 @@
+  .banner, .topnav {
+    width: 100%;
+    margin-left: 0;
+    margin-right: 0;
+    left: auto;
+    right: auto;
+    position: static;
+  }
 * {
   box-sizing: border-box;
 font-family: 'Helvetica Neue', sans-serif;}
@@ -247,10 +255,4 @@ main > img:first-child {
     margin-right: 1rem;
   }
 }
-@media (min-width: 1200px) {
-  main {
-    max-width: 1200px;
-    margin-left: auto;
-    margin-right: auto;
-  }
-}
+
