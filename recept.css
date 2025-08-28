@@ -214,11 +214,11 @@ main > img:first-child {
   background-color: #344044;
   color: #FEFBF6;
   padding: 1rem;
-  width: 100vw;
-  left: 50%;
-  right: 50%;
-  margin-left: -50vw;
-  margin-right: -50vw;
+  width: 100%;
+  margin-left: 0;
+  margin-right: 0;
+  left: auto;
+  right: auto;
   position: static;
 }
 
