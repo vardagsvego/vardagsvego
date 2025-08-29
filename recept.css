@@ -227,7 +227,7 @@ main > img:first-child {
 }
 
 @media (min-width: 700px) {
-  * {
+  body {
     box-sizing: border-box;
     transform: scale(1.25);
   }
