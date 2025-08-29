@@ -231,6 +231,8 @@ main > img:first-child {
     padding-left: 12rem;
     padding-right: 12rem;
     margin-bottom: 4rem;
+    transform: scale(1.1);
+    transform-origin: top center;
   }
   .topnav a {
     font-size: 1.5rem;
@@ -240,7 +242,7 @@ main > img:first-child {
     padding-right: 1.2rem;
   }
   main {
-    transform: scale(1.08);
+    transform: scale(1.25);
     transform-origin: top center;
   }
   .topnav {
