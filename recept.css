@@ -227,11 +227,15 @@ main > img:first-child {
 }
 
 @media (min-width: 700px) {
+  * {
+    box-sizing: border-box;
+    transform: scale(1.25);
+  }
+  
   main {
     padding-left: 12rem;
     padding-right: 12rem;
     margin-bottom: 4rem;
-    transform: scale(1.25);
     transform-origin: top center;
   }
   .topnav a {
