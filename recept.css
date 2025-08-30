@@ -1,48 +1,4 @@
-@media (min-width: 400px) {
-  .topnav {
-    justify-content: center;
-    flex-direction: row;
-  }
-}
-@media (min-width: 700px) {
-  main {
-    max-width: 60ch;
-    margin-left: auto;
-    margin-right: auto;
-    padding-left: 3rem;
-    padding-right: 3rem;
-    margin-bottom: 6rem;
-    background: none;
-    font-size: 1.2rem;
-    line-height: 1.7;
-  }
-  h1, h2, h3, h4, p, ul, ol {
-    max-width: 60ch;
-    margin-left: auto;
-    margin-right: auto;
-  }
-    p {
-    font-size: 1rem;
-    line-height: 1.5rem;
-  }
-  img {
-    max-width: 100vw;
-    width: 100%;
-    height: auto;
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-  }
-}
 
-  .banner, .topnav {
-    width: 100%;
-    margin-left: 0;
-    margin-right: 0;
-    left: auto;
-    right: auto;
-    position: static;
-  }
 * {
   box-sizing: border-box;
 font-family: 'Helvetica Neue', sans-serif;}
@@ -110,9 +66,11 @@ main {
   position: relative;
   box-sizing: border-box;
   display: flex;
-  flex-direction: row-reverse;
-  justify-content: flex-end;
   align-items: center;
+    /* Tillagt i hopp om centrerat på större skärmar, tidigare  flex-direction: row-reverse;
+  justify-content: flex-end;*/
+    justify-content: center;
+    flex-direction: row;
 }
 
 .topnav a {
@@ -263,5 +221,49 @@ main > img:first-child {
   font-size: 0.9rem;
 }
 
+@media (min-width: 400px) {
+  .topnav {
+    justify-content: center;
+    flex-direction: row;
+  }
+}
+@media (min-width: 700px) {
+  main {
+    max-width: 60ch;
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: 3rem;
+    padding-right: 3rem;
+    margin-bottom: 6rem;
+    background: none;
+    font-size: 1.2rem;
+    line-height: 1.7;
+  }
+  h1, h2, h3, h4, p, ul, ol {
+    max-width: 60ch;
+    margin-left: auto;
+    margin-right: auto;
+  }
+    p {
+    font-size: 1.2rem;
+    line-height: 1.5rem;
+  }
+  img {
+    max-width: 100vw;
+    width: 100%;
+    height: auto;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+  }
+}
 
+  .banner, .topnav {
+    width: 100%;
+    margin-left: 0;
+    margin-right: 0;
+    left: auto;
+    right: auto;
+    position: static;
+  }
 
