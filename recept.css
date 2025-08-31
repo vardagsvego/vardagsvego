@@ -84,8 +84,8 @@ main {
 .topnav a {
   float: inline-start;
   display: block;
-  padding-left: 0.8rem;
-  padding-right: 0.8rem;
+  padding-left: 0.7rem;
+  padding-right: 0.7rem;
   padding-top: 3rem;
   padding-bottom: 3rem;
   text-align: center;
