@@ -251,6 +251,7 @@ main > img:first-child {
     max-width: 60ch;
     margin-left: auto;
     margin-right: auto;
+    line-height: 2rem;
   }
   h2.servera {line-height: 2rem;
 font-size: 1.2rem;
