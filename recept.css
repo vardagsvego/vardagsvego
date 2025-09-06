@@ -252,7 +252,15 @@ main > img:first-child {
     max-width: 60ch;
     margin-left: auto;
     margin-right: auto;
-    line-height: 1.4rem;
+  }
+  h1 {
+    line-height: 1.15;
+  }
+  h2, h3, h4, p, ul, ol {
+    line-height: 1.5rem;
+  }
+  li {
+    line-height: 1.7;
   }
   h2.servera {line-height: 2rem;
 font-size: 1.2rem;
