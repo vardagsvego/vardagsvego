@@ -5,49 +5,18 @@ font-family: 'Helvetica Neue', sans-serif;}
 
 /* Dubbel fokusring */
 
-:where(
-  a,
-  button,
-  input,
-  textarea,
-  select,
-  details,
-  audio,
-  video,
-  object,
-  [contenteditable],
-  [tabindex]
-) {
-  --_focus-ring-distance: 0.2rem;
-  --_focus-ring-color-background: var(--_color-background);
-
-  &:focus-visible {
-    --_focus-ring-color-inner: hsl(0 0% 100%);
-    --_focus-ring-color-outer: hsl(0 0% 0%);
-
-    box-shadow:
-      0 0 0 var(--_focus-ring-distance) var(--_focus-ring-color-background),
-      0 0 0 calc(var(--_focus-ring-distance) * 2) var(--_focus-ring-color-inner),
-      0 0 0 calc(var(--_focus-ring-distance) * 3) var(--_focus-ring-color-background),
-      0 0 0 calc(var(--_focus-ring-distance) * 4) var(--_focus-ring-color-outer);
-    outline: none;
-  }
-
-  @supports (color: hsl(from hsl(0 0% 100%) h s l)) {
-    &:focus-visible {
-      --_focus-ring-color-inner: currentColor;
-      --_focus-ring-color-outer: hsl(from var(--_focus-ring-color-inner) calc(h + 180) s l);
-      box-shadow:
-        0 0 0 var(--_focus-ring-distance) var(--_focus-ring-color-background),
-        0 0 0 calc(var(--_focus-ring-distance) * 2) var(--_focus-ring-color-inner),
-        0 0 0 calc(var(--_focus-ring-distance) * 3) var(--_focus-ring-color-background),
-        0 0 0 calc(var(--_focus-ring-distance) * 4) var(--_focus-ring-color-outer);
-      outline: none;
-    }
-  }
+:focus-visible {
+  box-shadow: 0 0 0 6px #fff;
+  outline: 2px solid #000;
+  outline-offset: 2px;
 }
 
 /* Dubbel fokusring slut*/
+
+:focus {
+   background-color:black; 
+        color:#FFF;     
+}
 
 body {
           
@@ -64,10 +33,6 @@ main {
     flex: 1;
 }
 
-:focus {
-   background-color:black; 
-        color:#FFF;     
-}
 
 /* Banner */
   .banner, .topnav {
