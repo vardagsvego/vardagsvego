@@ -14,10 +14,10 @@ font-family: 'Helvetica Neue', sans-serif;}
 
 /* Dubbel fokusring */
 
-:focus-visible {
+*:focus-visible {
   box-shadow: 0 0 0 6px #fff;
-  outline: 2px solid #000;
-  outline-offset: 2px;
+  outline: 5px solid #000;
+  outline-offset: 5px;
 }
 
 /* Dubbel fokusring slut*/
