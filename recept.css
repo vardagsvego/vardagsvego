@@ -4,6 +4,10 @@
         position: absolute;
         transform: translateY(-100%);
 }
+.skip-to-content:focus {
+    position: relative;
+    transform: translateY(0%);
+}
 * {
   box-sizing: border-box;
 font-family: 'Helvetica Neue', sans-serif;}
