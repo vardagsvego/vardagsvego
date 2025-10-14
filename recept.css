@@ -22,10 +22,10 @@ font-family: 'Helvetica Neue', sans-serif;}
 
 /* Dubbel fokusring slut*/
 
-:focus {
+/* :focus {
    background-color:black; 
         color:#FFF;     
-}
+}*/
 
 body {
           
