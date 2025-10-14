@@ -15,19 +15,16 @@ font-family: 'Helvetica Neue', sans-serif;}
 /* Dubbel fokusring */
 
 :focus-visible {
-  box-shadow: 0 0 0 6px #fff;
-  outline: 5px solid #000;
-  outline-offset: 5px;
+  box-shadow: 0 0 0 6px #FEFBF6;
+  outline: 3px solid #000;
+  outline-offset: 3px;
   background-color:black; 
-        color:#FFF;  
+        color:#FEFBF6;  
 }
 
 /* Dubbel fokusring slut*/
 
-/* :focus {
-   background-color:black; 
-        color:#FFF;     
-}*/
+
 
 body {
           
