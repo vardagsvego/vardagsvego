@@ -1,4 +1,9 @@
 
+.skip-to-content {
+        left: 50%;
+        position: absolute;
+        transform: translateY(-100%);
+}
 * {
   box-sizing: border-box;
 font-family: 'Helvetica Neue', sans-serif;}
