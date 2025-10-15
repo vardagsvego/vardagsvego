@@ -24,8 +24,6 @@ font-family: 'Helvetica Neue', sans-serif;}
 
 /* Dubbel fokusring slut*/
 
-
-
 body {
           
         letter-spacing: 0.1rem;
@@ -206,9 +204,17 @@ a:hover {
     text-decoration: underline;
 }
 
-.receptlista-start :focus {
-   background-color:black; 
-        color:#FFF;     
+
+a:focus-visible,
+button:focus-visible,
+input:focus-visible,
+select:focus-visible,
+textarea:focus-visible {
+  box-shadow: 0 0 0 6px #FEFBF6;
+  outline: 3px solid #000;
+  outline-offset: 3px;
+  background-color: black;
+  color: #FEFBF6;
 }
 
 img {
