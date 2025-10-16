@@ -21,6 +21,7 @@
   border-radius: 8px;
   width: 100%;
   padding: 0;
+  overflow: hidden;
   transition: border-color 0.2s;
 }
 .puffblock:hover, .puffblock:focus {
@@ -34,6 +35,7 @@
   display: block;
   margin: 0;
   border: none;
+  aspect-ratio: 16/10;
 }
 .puffblock span {
   margin: 0.5rem 1rem 1rem 1rem;
