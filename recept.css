@@ -1,15 +1,3 @@
-/* Dubbel fokusring */
-
-:focus-visible {
-  box-shadow: 0 0 0 6px #FEFBF6;
-  outline: 3px solid #000;
-  outline-offset: 3px;
-  background-color:black; 
-        color:#FEFBF6;  
-}
-
-/* Dubbel fokusring slut*/
-
 /* Puffblock - enkel styling */
 
 .puffblock-container {
@@ -34,15 +22,15 @@
   margin-left: auto;
   margin-right: auto;
   text-decoration: none;
-  background:#F0EDDC;
+  background:#F2F1EE;
   border: 1px solid #ddd;
-  border-radius: 8px;
+  border-radius: 3px;
     width: 100%;
     max-width: 300px;
   padding: 0;
   padding-right: 1rem;
   overflow: hidden;
-  transition: border-color 0.2s;
+  text-decoration: underline;
 }
 .puffblock:hover {
   border-color: #aaa;
@@ -92,6 +80,18 @@ main {
   margin-bottom: 3rem;
     flex: 1;
 }
+
+/* Dubbel fokusring */
+
+:focus-visible {
+  box-shadow: 0 0 0 6px #FEFBF6;
+  outline: 3px solid #000;
+  outline-offset: 3px;
+  background-color:black; 
+  color:#FEFBF6;  
+}
+
+/* Dubbel fokusring slut*/
 
 
 /* Banner */
