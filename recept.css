@@ -1,3 +1,15 @@
+/* Dubbel fokusring */
+
+:focus-visible {
+  box-shadow: 0 0 0 6px #FEFBF6;
+  outline: 3px solid #000;
+  outline-offset: 3px;
+  background-color:black; 
+        color:#FEFBF6;  
+}
+
+/* Dubbel fokusring slut*/
+
 /* Puffblock - enkel styling */
 
 .puffblock-container {
@@ -65,18 +77,6 @@
 * {
   box-sizing: border-box;
 font-family: 'Helvetica Neue', sans-serif;}
-
-/* Dubbel fokusring */
-
-:focus-visible {
-  box-shadow: 0 0 0 6px #FEFBF6;
-  outline: 3px solid #000;
-  outline-offset: 3px;
-  background-color:black; 
-        color:#FEFBF6;  
-}
-
-/* Dubbel fokusring slut*/
 
 body {
           
