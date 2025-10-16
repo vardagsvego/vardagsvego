@@ -44,7 +44,7 @@
   overflow: hidden;
   transition: border-color 0.2s;
 }
-.puffblock:hover, .puffblock:focus {
+.puffblock:hover {
   border-color: #aaa;
 }
 .puffblock img {
