@@ -50,7 +50,7 @@
   font-size: 1rem;
   text-align: center;
   align-self: center;
-  text-decoration-thickness: 5%;
+  text-decoration-thickness: 8%;
 }
 
 .skip-to-content {
@@ -239,7 +239,7 @@ a:hover {
   padding-bottom: 0.5rem;
   padding-top: 0.5rem;
   text-decoration: underline;
-    text-decoration-thickness: 5%;
+    text-decoration-thickness: 8%;
   }
 
 .receptlista-start a:hover {
