@@ -13,6 +13,7 @@
 @media (min-width: 700px) {
   .puffblock-container {
       grid-template-columns: repeat(2, 320px);
+       padding-left: 1rem;
   }
 }
 .puffblock {
@@ -87,8 +88,7 @@ main {
   box-shadow: 0 0 0 6px #FEFBF6;
   outline: 3px solid #000;
   outline-offset: 3px;
-  background-color:black; 
-  color:#FEFBF6;  
+  transform: translateY(0%); 
 }
 
 /* Dubbel fokusring slut*/
