@@ -22,9 +22,8 @@
   align-items: center;
   margin-left: auto;
   margin-right: auto;
-  text-decoration: none;
-  background:#F2F1EE;
-  border: 1px solid #ddd;
+  background:#F0EDDC;
+  border: 1px solid #65777d;
   border-radius: 3px;
     width: 100%;
     max-width: 300px;
@@ -34,7 +33,7 @@
   text-decoration: underline;
 }
 .puffblock:hover {
-  border-color: #aaa;
+  border-color: #354044;
 }
 .puffblock img {
   width: 100%;
