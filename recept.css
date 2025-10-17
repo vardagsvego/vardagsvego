@@ -54,7 +54,7 @@
 }
 
 .skip-to-content {
-        left: 50%;
+        left: 20%;
         position: absolute;
         transform: translateY(-100%);
 }
