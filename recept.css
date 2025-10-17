@@ -78,6 +78,7 @@ body {
 main {
   margin-bottom: 3rem;
     flex: 1;
+    text-decoration-thickness: 8%;
 }
 
 /* Dubbel fokusring */
