@@ -50,6 +50,7 @@
   font-size: 1rem;
   text-align: center;
   align-self: center;
+  text-decoration-thickness: 5%;
 }
 
 .skip-to-content {
@@ -78,20 +79,7 @@ body {
 main {
   margin-bottom: 3rem;
     flex: 1;
-    text-decoration-thickness: 8%;
 }
-
-/* Dubbel fokusring */
-
-:focus-visible {
-  box-shadow: 0 0 0 6px #FEFBF6;
-  outline: 3px solid #000;
-  outline-offset: 3px;
-  transform: translateY(0%); 
-}
-
-/* Dubbel fokusring slut*/
-
 
 /* Banner */
   .banner, .topnav {
@@ -251,6 +239,7 @@ a:hover {
   padding-bottom: 0.5rem;
   padding-top: 0.5rem;
   text-decoration: underline;
+    text-decoration-thickness: 5%;
   }
 
 .receptlista-start a:hover {
@@ -266,8 +255,7 @@ textarea:focus-visible {
   box-shadow: 0 0 0 6px #FEFBF6;
   outline: 3px solid #000;
   outline-offset: 3px;
-  background-color: black;
-  color: #FEFBF6;
+  transform: translateY(0%); 
 }
 
 img {
