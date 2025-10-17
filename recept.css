@@ -81,6 +81,11 @@ main {
     flex: 1;
 }
 
+a {
+  color: black;
+  text-decoration-thickness: 8%;
+}
+
 /* Banner */
   .banner, .topnav {
     width: 100%;
